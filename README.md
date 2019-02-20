@@ -23,7 +23,7 @@ workflow "Email stakeholders on release" {
 }
 
 action "hecateapp/dispatch-action" {
-  uses = "hecateapp/dispatch-action@1.0.0"
+  uses = "hecateapp/dispatch-action@v1.0.0"
   secrets = ["GITHUB_TOKEN"]
   env = {
     EMAILS = "your.email@some.domain, another.email@some.domain"
