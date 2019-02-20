@@ -22,9 +22,9 @@ LABEL repository="https://github.com/hecateapp/dispatch-action"
 LABEL homepage="https://github.com/hecateapp/dispatch-action"
 LABEL maintainer="Hecate <hello@hecate.co>"
 
-LABEL "com.github.actions.name"="hecateapp/dispatch-action"
-LABEL "com.github.actions.description"="Sends merge emails to whoever needs them"
-LABEL "com.github.actions.icon"="at-sign"
+LABEL "com.github.actions.name"="Hecate Dispatch"
+LABEL "com.github.actions.description"="Sends emails to stakeholders when pull requests are merged."
+LABEL "com.github.actions.icon"="mail"
 LABEL "com.github.actions.color"="purple"
 
 ENTRYPOINT ["/dispatch"]
