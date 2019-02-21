@@ -17,7 +17,7 @@ RUN apk update \
         && update-ca-certificates 2>/dev/null || true
 COPY --from=build-stage /src/dispatch /
 
-LABEL version="1.0.1"
+LABEL version="v1.0.1"
 LABEL repository="https://github.com/hecateapp/dispatch-action"
 LABEL homepage="https://github.com/hecateapp/dispatch-action"
 LABEL maintainer="Hecate <hello@hecate.co>"
