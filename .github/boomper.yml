@@ -1,0 +1,5 @@
+updates:
+  - path: README.md
+    pattern: 'uses = "hecateapp/dispatch-action@(v.*)"'
+  - path: Dockerfile
+    pattern: 'LABEL version="(.*)"'
