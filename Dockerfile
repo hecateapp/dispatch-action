@@ -1,5 +1,5 @@
 # Build stage
-FROM golang:1.12rc1-alpine3.9 AS build-stage
+FROM golang:1.12-alpine3.9 AS build-stage
 
 RUN apk add --no-cache git 
 RUN go get gopkg.in/go-playground/webhooks.v5/github
