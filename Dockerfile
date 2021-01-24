@@ -9,7 +9,7 @@ ADD . /src
 RUN cd /src && go build -o dispatch
 
 # Release stage
-FROM alpine:3.9
+FROM alpine:3.13
 RUN apk update \
         && apk upgrade \
         && apk add --no-cache \
